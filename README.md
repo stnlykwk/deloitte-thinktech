@@ -1,5 +1,7 @@
 Hello-OBP-OAuth1.0a-Node
 ========================
+(forked from https://github.com/OpenBankProject/Hello-OBP-OAuth1.0a-Node)
+
 
 This is a very basic app to demonstrate the integration of the OpenBankProject with OAuth1.0-Authentication
 into a NodeJS application.
@@ -30,7 +32,7 @@ Start Server:
 node oauth.js
 
 Navigate to the page:
-http://127.0.0.1:8085
+http://127.0.0.1:8085/connect
 (not http://localhost:8085 in this example as the session won't be set)
 
 You can log in as a test user, using the following credentials on the general OBP API sandbox:
@@ -39,6 +41,8 @@ username: joe.bloggs@example.com
 password: qwerty
 
 Each public sandbox generally has a github wiki page with dummy customer logins. See the home page of the API sandbox you are using.
+
+The one we are using for this case competition is from HSBC and is available here: https://github.com/OpenBankProject/OBP-API/wiki/openlab-HSBC-OBP-API-Sandbox
 
 ## REFERENCES
 
