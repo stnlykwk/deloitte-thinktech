@@ -1,0 +1,12 @@
+block content
+    h1= title
+
+    ul
+      each account in json.accounts
+        li= "Account ID: " + account.id
+        li= "Amount: " + account.balance.amount + " " + account.balance.currency
+        br
+      else
+        li There are no accounts
+
+
