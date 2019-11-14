@@ -38,6 +38,7 @@ http://127.0.0.1:8085/connect
 You can log in as a test user, using the following credentials on the general OBP API sandbox:
 
 username: super.user.1
+
 password: X!16a99a4e
 
 Each public sandbox generally has a github wiki page with dummy customer logins. See the home page of the API sandbox you are using.
