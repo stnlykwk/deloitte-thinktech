@@ -210,6 +210,7 @@ app.get('/signed_in', function(req, res){
   // var html = pug.renderFile(template, options)
   // res.status(200).send(html)
   res.sendFile(__dirname + '/public/index.html');
+  // res.sendFile(__dirname + '/public/modal.html');
 
  });
 
